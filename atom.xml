@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-30T10:16:22.072Z</updated>
+  <updated>2020-10-30T12:11:16.003Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2020/10/30/My-First/"/>
     <id>http://example.com/2020/10/30/My-First/</id>
     <published>2020-10-30T01:33:24.000Z</published>
-    <updated>2020-10-30T10:16:22.072Z</updated>
+    <updated>2020-10-30T12:11:16.003Z</updated>
     
-    <content type="html"><![CDATA[<p>这是我的第一篇blog<br>目前我在大一，我想以此记录我的大学生活<br>北京时间：2020年10月30日09点47分<br>我是一个普通人，但我热爱计算机，所以我来到这里。希望我善待万物，万物也能善待我。我喜欢道教文化，因为道教文化使我心如止水。<br>😔，算了，不bibi了。<br>我爱CTF 我爱ACM 我爱高等数学！！！！！<br>此致 我的第一次</p>]]></content>
+    <content type="html"><![CDATA[<p>这是我的第一篇blog<br>目前我在大一，我想以此记录我的大学生活<br>北京时间：2020年10月30日09点47分<br>我是一个普通人，但我热爱计算机，所以我来到这里。希望我善待万物，万物也能善待我。我喜欢道教文化，因为道教文化使我心如止水。<br>😔，算了，不bibi了。<br>我爱CTF 我爱ACM 我爱高等数学！！！！！</p><h1 id="此致-我的第一次"><a href="#此致-我的第一次" class="headerlink" title="此致 我的第一次"></a>此致 我的第一次</h1>]]></content>
     
     
     <summary type="html">君子</summary>
