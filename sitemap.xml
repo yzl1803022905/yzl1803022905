@@ -24,6 +24,13 @@
   </url>
 
   
+  <url>
+    <loc>http://example.com/tags/%E6%88%91%E7%88%B1%E4%B8%96%E9%97%B4%E4%B8%87%E7%89%A9%E5%8F%AA%E5%9B%A0%E6%88%91%E4%B8%BA%E4%B8%87%E7%89%A9%E8%80%8C%E7%94%9F/</loc>
+    <lastmod>2020-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
 </urlset>

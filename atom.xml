@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-30T01:33:24.177Z</updated>
+  <updated>2020-10-30T10:16:22.072Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,11 +21,17 @@
     <link href="http://example.com/2020/10/30/My-First/"/>
     <id>http://example.com/2020/10/30/My-First/</id>
     <published>2020-10-30T01:33:24.000Z</published>
-    <updated>2020-10-30T01:33:24.177Z</updated>
+    <updated>2020-10-30T10:16:22.072Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的第一篇blog<br>目前我在大一，我想以此记录我的大学生活<br>北京时间：2020年10月30日09点47分<br>我是一个普通人，但我热爱计算机，所以我来到这里。希望我善待万物，万物也能善待我。我喜欢道教文化，因为道教文化使我心如止水。<br>😔，算了，不bibi了。<br>我爱CTF 我爱ACM 我爱高等数学！！！！！<br>此致 我的第一次</p>]]></content>
+    
+    
+    <summary type="html">君子</summary>
     
     
     
     
+    <category term="我爱世间万物只因我为万物而生" scheme="http://example.com/tags/%E6%88%91%E7%88%B1%E4%B8%96%E9%97%B4%E4%B8%87%E7%89%A9%E5%8F%AA%E5%9B%A0%E6%88%91%E4%B8%BA%E4%B8%87%E7%89%A9%E8%80%8C%E7%94%9F/"/>
     
   </entry>
   
