@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-31T03:12:56.637Z</updated>
+  <updated>2020-10-31T03:23:21.700Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2020/10/31/%E5%BC%93%E5%BD%A2%E9%9D%A2%E7%A7%AF/"/>
     <id>http://example.com/2020/10/31/%E5%BC%93%E5%BD%A2%E9%9D%A2%E7%A7%AF/</id>
     <published>2020-10-31T02:15:31.000Z</published>
-    <updated>2020-10-31T03:12:56.637Z</updated>
+    <updated>2020-10-31T03:23:21.700Z</updated>
     
     <content type="html"><![CDATA[<img src="http://acm.hdu.edu.cn/data/images/1071_1.bmp" class title="title text" alt="alt text"><p>设直线方程：y=kx+t…………………………………………………………（1）<br>  抛物线方程：y=ax^2+bx+c……………………………………………………（2）<br>已知抛物线顶点p1（x1，y1），两线交点p2（x2，y2）和p3（x3，y3）<br>斜率k=(y3-y2)/(x3-x2)……………………………………………………（3）<br>把p3点代入（1）式结合（3）式可得：t=y3-(k<em>x3)<br>又因为p1是抛物线的顶点，可得关系：x1=-b/2a即b=-2a</em>x1………………（4）<br>把p1点代入（2）式结合（4）式可得：a<em>x1</em>x1-2a<em>x1</em>x1+c=y1化简得c=y1+a<em>x1</em>x1……（5）<br>把p2点代入（2）式结合（4）式和（5）式可得：a=(y2-y1)/((x1-x2)<em>(x1-x2))<br>于是通过3点求出了k，t，a，b，c即两个方程式已求出<br>题目时求面积s<br>通过积分可知：s=f（x2-&gt;x3）(积分符号)（ax^2+bx+c-（kx+t））<br>               =f（x2-&gt;x3）(积分符号)（ax^2+（b-k）x+c-t）<br>               =<a href="x2-%3Ex3">a/3<em>x^3+(b-k)/2</em>x^2+(c-t)x</a><br>               =a/3</em>x3<em>x3</em>x3+(b-k)/2<em>x3</em>x3+(c-t)<em>x3-(a/3</em>x2<em>x2</em>x2+(b-k)/2<em>x2</em>x2+(c-t)<em>x2)<br>化简得：<br>面积公式：s=-(y2-y1)/（(x2-x1)</em>(x2-x1)）<em>（(x3-x2)</em>(x3-x2)*(x3-x2)）/6;</p>]]></content>
     
