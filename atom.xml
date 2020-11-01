@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-31T03:23:21.700Z</updated>
+  <updated>2020-11-01T13:46:32.851Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习总结</title>
+    <link href="http://example.com/2020/11/01/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://example.com/2020/11/01/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2020-11-01T13:43:34.000Z</published>
+    <updated>2020-11-01T13:46:32.851Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片从wallhaven找。</p><p>装了虚拟机 Ubuntu一定先安装16.04版本，千万别安最新版。淦。</p><p>目前正在准备ctf中，加油！！！💪💪；</p><p>杭电oj53题，有一些小技巧</p><h1 id="一"><a href="#一" class="headerlink" title="一"></a>一</h1><p>a^b%c = (a%c)^b%c<br>当c=10时举例<br>个位相乘不影响取余即可<br>import java.util.Scanner;</p><p>public class Main {</p><p>public static void main(String[] args) {<br>    Scanner in = new Scanner(System.in);<br>    int a = in.nextInt(), b = in.nextInt(), c = in.nextInt();<br>    int res = 1;<br>    a %= c;<br>    for (; b != 0; b /= 2) {<br>        if (b % 2 == 1)<br>            res = (res * a) % c;<br>        a = (a * a) % c;<br>    }<br>    System.out.println(res);<br>}</p><p>}</p><h1 id="二"><a href="#二" class="headerlink" title="二"></a>二</h1><p>1、将字串 String 转换成整数 int</p><p>1). int i = Integer.parseInt([String]); 或</p><p>i = Integer.parseInt([String],[int radix]);</p><p>2). int i = Integer.valueOf(my_str).intValue();</p><p>注: 字串转成 Double, Float, Long 的方法大同小异.</p><p>2、将整数 int 转换成字串 String </p><p>1.) String s = String.valueOf(i);</p><p>2.) String s = Integer.toString(i);</p><p>3.) String s = “” + i;</p><p>Boolean型</p><p>character.isletter();</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;图片从wallhaven找。&lt;/p&gt;
+&lt;p&gt;装了虚拟机 Ubuntu一定先安装16.04版本，千万别安最新版。淦。&lt;/p&gt;
+&lt;p&gt;目前正在准备ctf中，加油！！！💪💪；&lt;/p&gt;
+&lt;p&gt;杭电oj53题，有一些小技巧&lt;/p&gt;
+&lt;h1 id=&quot;一&quot;&gt;&lt;a href=&quot;#一&quot; </summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>弓形面积</title>
